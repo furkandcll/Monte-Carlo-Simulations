@@ -55,7 +55,7 @@ def monte_carlo_unique_birthdays(sample=365, simulation=10_000, leap_year=False)
     
     percentage = perfect / simulation
 
-    print(f"The probability that at a group of {sample} people has all unique birthdays is {percentage * 100:.2f}%")
+    print(f"The probability that a group of {sample} people has all unique birthdays is {percentage * 100:.2f}%")
 
 monte_carlo_unique_birthdays()
 
@@ -83,6 +83,6 @@ def monte_carlo_all_birthdays(sample=2000, simulation=10_000, leap_year=False):
     
     percentage = all_in / simulation
 
-    print(f"The probability that at a group of {sample} people has all possible birthdays in a year is {percentage * 100:.2f}%")
+    print(f"The probability that a group of {sample} people has all possible birthdays in a year is {percentage * 100:.2f}%")
 
 monte_carlo_all_birthdays()
